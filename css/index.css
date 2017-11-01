@@ -1,0 +1,216 @@
+/*头部*/
+.h_con{
+	background-color:#fff;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #cecfcf;
+	box-shadow:  0 0 5px #cecfef inset;
+}
+.h_con .h_body{
+	
+	width: 1000px;
+	height: 80px;
+/*	background-color: red;*/
+	margin: 0px auto;
+}
+.h_con .h_body ul li{
+/*	float: left;*/
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	padding: 0px 20px;
+}
+.h_con .h_body ul li img{
+	width: 140px;
+}
+.h_con .h_body ul li a{
+	text-decoration: none;
+	font-size: 20px;	
+}
+.h_con .h_body ul li a:hover,.h_con .h_body ul li a.active{
+	color: #fe5341;
+}
+.h_con .h_body ul{
+	position: relative;
+}
+.h_con .h_body ul li.link{
+	position: absolute;
+	right: 0px;
+}
+.h_con .h_body ul li.link a:last-child{
+	border: 1px solid #FE5341;
+	font-size: 16px;
+	color: #FE5341;
+	padding: 5px 18px;
+	border-radius: 5px;
+}
+
+.h_con .h_body ul li.link a:last-child:hover{
+	color: white;
+	background-color: #FE5341;
+}
+.h_con .h_body ul li.link a:first-child{
+	width: 24px;
+	height: 26px;
+	display: inline-block;
+	/*border: 1px solid red;*/	
+	vertical-align: middle;
+	margin-right: 30px;
+	background: url(../img/icon/search.png) no-repeat;
+	transition: transform 0.5s; /*过度*/
+}
+.h_con .h_body ul li.link a:first-child:hover{
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+/*头部end*/
+/*主体*/
+.banner_con{
+	width: 100%;
+	height: 350px;
+	background:url(../img/icon/original.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner_con .banner_body{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: right;
+/*	border:  1px solid red;*/
+}
+.banner_con .banner_body h2{
+	font-size: 36px;
+	font-weight: normal;
+	color:#FFFFFF;	
+	padding:30px 0 20px;
+}
+.banner_con .banner_body div:nth-child(2) span{
+	font-size: 20px;
+	color:#FFFFFF;	
+	background:rgba(255,255,255,.3);
+	padding: 5px 10px;
+	margin-left: 10px;
+	
+}
+.banner_con .banner_body p:nth-child(3) {
+	font-size: 20px;
+	color:#FFFFFF;
+	margin-top: 20px;
+}
+.banner_con .banner_body .btn a{
+	display: inline-block;
+	color:#FFFFFF;
+	width: 200px;
+	font-size: 20px;
+	background: #FE5341;
+	text-align: center;
+	border-radius: 4px;
+	margin: 15px 0;
+	padding: 10px 20px;
+}
+.hot_con{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.hot_con .hot_body{
+	width: 1000px;
+	margin: 0 auto;
+}
+.hot_con .hot_body h2{
+	color: #333;
+	margin: 20px 0;
+}
+.hot_con .hot_body ul li {
+float: left;
+}
+.hot_con .hot_body ul li img{
+	width: 220px;
+	height: 135px;
+	border-radius: 6px 6px 0px 0px;
+}
+.hot_con .hot_body .info{
+	padding: 10px 0px;
+	width: 220px;
+	text-align: center;
+}
+.hot_con .hot_body .info .tabsred span{
+	border: 1px solid red;
+	color: red;
+	padding: 2px;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.hot_con .hot_body .info .sq{
+	font-size: 16px;
+	padding-left: 10px;
+}
+.hot_con .hot_body .info .sq span{
+	color: red;
+}
+.hot_con .hot_body .info .currentred{
+	color: red;
+}
+.hot_con .hot_body .info:last-child{
+	padding-left:0;
+}
+.hot_con .hot_body ul li {
+	width: 220px;
+	margin-right: 26px;
+	float: left;
+	border: 1px solid #E6E9E9;
+	border-radius: 6px;
+}
+.hot_con .hot_body ul li:nth-child(4){
+	margin-right: 0;
+}
+/*主体end*/
+/*底部*/
+.f_con{
+	width: 100%;
+	background-color: #505050;
+	color: #a3a3a3;
+}
+.f_con .f_body{
+	width: 1000px;
+	margin: 0 auto;
+}
+.f_con .f_body .qrcode img{
+	width: 180px;
+	
+}
+.f_con .f_body .qrcode,
+.f_con .f_body ul{
+	float: left;
+	padding-top: 20px;
+}
+
+.f_con .f_body ul li a{
+	color: #A3A3A3;
+}
+.f_con .f_body ul{
+	font-size: 14px;
+	margin-left:18px;
+}
+.f_con .f_body ul li:first-child{
+	color: #FFF;
+	margin-bottom: 20px;
+}
+.f_con .f_body ul:nth-child(2) li:last-child{
+	margin-top:13px;
+	}
+.f_con .f_body ul:nth-child(4) li a{
+	display: inline-block;
+	width: 70px;
+}
+.f_con .f_body .c_right{
+	clear: both;
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.f_con .f_body .backTop{
+	background: url(../img/icon/back.png) no-repeat #e8e8e8 center center;
+}
+.backTop:hover{background-color:#c6c6c6;}
+/*底部end*/
